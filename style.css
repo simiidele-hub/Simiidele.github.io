@@ -15,56 +15,70 @@ line-height:1.8;
 /* Navigation */
 
 nav{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #051b14;
-    padding: 20px;
-    z-index: 1000;
-    box-shadow: 0 2px 15px rgba(0,0,0,.3);
+/* =========================
+   Navigation
+========================= */
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#051b14;
+    padding:15px 5%;
+    z-index:1000;
+    box-shadow:0 2px 15px rgba(0,0,0,.3);
 }
 
 .logo{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #2ee59d;
-    text-align: center;
-    margin-bottom: 15px;
+    text-align:center;
+    font-size:2rem;
+    font-weight:700;
+    color:#2ee59d;
+    margin-bottom:15px;
 }
 
 nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    list-style:none;
+    gap:10px;
+    padding:0;
+    margin:0;
+}
+
+nav ul li{
+    margin:0;
 }
 
 nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    transition: .3s;
+    color:#fff;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:600;
+    padding:8px 12px;
+    border-radius:6px;
+    transition:.3s;
 }
 
 nav ul li a:hover{
-    color: #2ee59d;
+    color:#2ee59d;
+    background:rgba(46,229,157,.15);
 }
 
+/* Hero */
 
 .hero{
-min-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:140px 8% 80px;
-background:linear-gradient(135deg,#081c15,#14532d,#1f7a4d);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:260px 8% 80px;
+    background:linear-gradient(135deg,#081c15,#14532d,#1f7a4d);
 }
-
 .hero-content{
 max-width:800px;
 }
