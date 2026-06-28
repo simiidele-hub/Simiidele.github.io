@@ -1,4 +1,3 @@
-
 *{
 margin:0;
 padding:0;
@@ -12,73 +11,54 @@ background:#0b1d17;
 color:#f5f5f5;
 line-height:1.8;
 }
-/* Navigation */
 
 nav{
-/* =========================
-   Navigation
-========================= */
-
-nav{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    background:#051b14;
-    padding:15px 5%;
-    z-index:1000;
-    box-shadow:0 2px 15px rgba(0,0,0,.3);
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(11,29,23,.9);
+backdrop-filter:blur(10px);
+z-index:1000;
 }
 
 .logo{
-    text-align:center;
-    font-size:2rem;
-    font-weight:700;
-    color:#2ee59d;
-    margin-bottom:15px;
+font-size:26px;
+font-weight:700;
+color:#32d583;
 }
 
 nav ul{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-wrap:wrap;
-    list-style:none;
-    gap:10px;
-    padding:0;
-    margin:0;
-}
-
-nav ul li{
-    margin:0;
+display:flex;
+list-style:none;
+gap:30px;
 }
 
 nav ul li a{
-    color:#fff;
-    text-decoration:none;
-    font-size:16px;
-    font-weight:600;
-    padding:8px 12px;
-    border-radius:6px;
-    transition:.3s;
+text-decoration:none;
+color:white;
+font-weight:500;
+transition:.3s;
 }
 
 nav ul li a:hover{
-    color:#2ee59d;
-    background:rgba(46,229,157,.15);
+color:#32d583;
 }
-
-/* Hero */
 
 .hero{
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:260px 8% 80px;
-    background:linear-gradient(135deg,#081c15,#14532d,#1f7a4d);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:140px 8% 80px;
+background:linear-gradient(135deg,#081c15,#14532d,#1f7a4d);
 }
+
 .hero-content{
 max-width:800px;
 }
@@ -208,4 +188,4 @@ section h2{
 font-size:32px;
 }
 
-  }
+}
